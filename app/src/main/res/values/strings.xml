@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PlayasAsturias</string>
+    <string name="Zona">Zone:</string>
+    <string name="Buscador">Introduce name, council, area</string>
+    <string name="Concejo">Council:</string>
+    <string name="Nombre">Name</string>
+
+    <string name="BanderaAzul">Blue Flag</string>
+    <string name="Todas">All</string>
+    <string name="Oriente">East</string>
+    <string name="Centro">Center</string>
+    <string name="Occidente">West</string>
+    <string name="InformacionInteres">Information of interest:</string>
+    <string name="TipoPlaya">Type:</string>
+    <string name="Acceso">Access:</string>
+    <string name="Longitd">Length:</string>
+    <string name="Servicios">Services:</string>
+    <string name="Descripcion">Description:</string>
+
+
+</resources>

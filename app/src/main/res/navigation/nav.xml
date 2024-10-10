@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/listadoFragment">
+
+    <fragment
+        android:id="@+id/listadoFragment"
+        android:name="com.hugo.playas.fragments.ListadoFragment"
+        android:label="fragment_listado"
+        tools:layout="@layout/fragment_listado" >
+        <action
+            android:id="@+id/action_listadoFragment_to_detallesFragment"
+            app:destination="@id/detallesFragment"
+            app:launchSingleTop="false" />
+        <action
+            android:id="@+id/action_listadoFragment_to_mapa"
+            app:destination="@id/mapa" />
+    </fragment>
+    <fragment
+        android:id="@+id/detallesFragment"
+        android:name="com.hugo.playas.fragments.DetallesFragment"
+        android:label="fragment_detalles"
+        tools:layout="@layout/fragment_detalles" />
+    <fragment
+        android:id="@+id/mapa"
+        android:name="com.hugo.playas.fragments.Mapa"
+        android:label="fragment_mapa"
+        tools:layout="@layout/fragment_mapa" />
+</navigation>
